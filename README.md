@@ -17,13 +17,35 @@ a hero background image that covers the main content section of the page with so
 
 ## User Experience
 
+### Wireframes
+
+![Wireframe for Mobile Home page](https://www.ignurof.com/howtosowseeds/wireframe_mobile_home.png)
+![Wireframe for Mobile Guide page](https://www.ignurof.com/howtosowseeds/wireframe_mobile_guide.png)
+![Wireframe for Mobile Contact page](https://www.ignurof.com/howtosowseeds/wireframe_mobile_contact.png)
+![Wireframe for Mobile About page](https://www.ignurof.com/howtosowseeds/wireframe_mobile_about.png)
+
+![Wireframe for Laptop Home page](https://www.ignurof.com/howtosowseeds/wireframe_laptop_home.png)
+![Wireframe for Laptop Guide page](https://www.ignurof.com/howtosowseeds/wireframe_laptop_guide.png)
+![Wireframe for Laptop Contact page](https://www.ignurof.com/howtosowseeds/wireframe_laptop_contact.png)
+![Wireframe for Laptop About page](https://www.ignurof.com/howtosowseeds/wireframe_laptop_about.png)
+
 ## Testing 
 
 ### Validator Testing 
 
+HTML
+
+CSS
+
 ### Unfixed Bugs
 
 ## Deployment
+
+GitHub pages
+
+- Step 1
+- Step 2
+- Step 3
 
 ## Credits 
 
