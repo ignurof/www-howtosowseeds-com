@@ -1,0 +1,5 @@
+/* Styling Reset on all selectors */
+* {
+    margin: 0;
+    padding: 0;
+}
