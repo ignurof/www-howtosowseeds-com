@@ -21,18 +21,15 @@ body {
 header {
     display: flex;
     flex-wrap: wrap;
+    border-bottom: 1px solid black;
 }
 
 /* Logo Heading */
 #logo-heading {
-    width: 100%;
-    height: 14vh;
-    background-color: red;
     display: flex;
 }
 
 #logo-heading > a {
-    flex: 3;
     text-decoration: none;
     padding-left: 0.6rem;
 }
@@ -47,22 +44,19 @@ header {
     font-size: 200%;
 }
 
-#logo-heading > form {
-    flex: 1;
-}
-
-#logo-heading > form > label {
-    cursor: pointer;
-}
-
 /* Hamburger menu */
-input[type=checkbox]{
+
+#hamburger-checkbox {
     display: none;
+}
+
+header > label {
+    margin-left: auto;
 }
 
 .nav-hamburger {
     height: 100%;
-    background-color: violet;
+    width: 4rem;
     color: white;
     display: flex;
     flex-direction: column;
@@ -77,15 +71,21 @@ input[type=checkbox]{
     height: 12.5%;
 }
 
-header > nav {
-    border: 1px solid blue;
-    background-color: pink;
+nav {
     width: 100%;
-    display: flex;
     flex-direction: column;
     align-items: center; /* Vertically */
     justify-content: center; /* Horizontally */
+    /* Hide dropdown nav menu by default until user clicks hamburger button */
+    display: none;
 }
+
+/* note: these rules have to come after nav since we want to apply overriding styles, and css follows order top to bottom where bottom has most priority */
+/* tilde char will target the selector after it */
+#hamburger-checkbox:checked~nav {
+    display: block; 
+}
+
 
 /* Header end */
 
@@ -106,6 +106,7 @@ footer {
     /* Put footer at the bottom at all times */
     position: relative;
     bottom: 0;
+    border-top: 1px solid black;
 }
 
 footer > ul {
