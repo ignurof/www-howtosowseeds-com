@@ -152,6 +152,30 @@ main {
 
 /* Guide end */
 
+/* Contact start */
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+form label {
+    margin-top: 1rem;
+}
+
+form > textarea {
+    resize: none;
+}
+
+form > input[type=submit]{
+    margin-top: 1rem;
+}
+
+/* Contact end */
+
 /* Footer start */
 
 footer {
