@@ -36,6 +36,7 @@ header {
 #logo-heading > a {
     text-decoration: none;
     padding-left: 0.6rem;
+    color: black;
 }
 
 #logo-heading > a > p {
@@ -100,6 +101,7 @@ nav > ul li {
 }
 
 nav > ul a {
+    color: black;
     text-decoration: none;
 }
 
@@ -223,6 +225,11 @@ footer > ul li i {
 
 footer > p {
     text-align: center;
+}
+
+footer > p > a {
+    color: black;
+    text-decoration: none;
 }
 
 /* Footer end */
