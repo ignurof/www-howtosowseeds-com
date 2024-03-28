@@ -95,20 +95,26 @@ main {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    padding: 1rem;
 }
 
-main > header {
-    margin-top: 1rem;
+.content {
+}
+
+.content > header {
     align-self: center;
     /* reset header border from top nav header */
     border: 0;
     display: flex;
     flex-direction: column;
+    margin-bottom: 1rem;
 }
 
-main > header > h2 {
+.content > header > h2 {
     align-self: center;
 }
+
+
 
 /* Page content end */
 
@@ -118,7 +124,6 @@ main > header > h2 {
     border: 1px solid black;
     border-radius: 0.4rem;
     padding: 2rem;
-    margin: 1rem;
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
     display: flex;
@@ -141,10 +146,8 @@ main > header > h2 {
 /* Guide start */
 
 .guide {
-    margin: 2rem;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
 }
 
 /* Guide end */
