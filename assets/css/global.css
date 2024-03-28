@@ -14,6 +14,10 @@ body {
     overflow-x: hidden;
 }
 
+.active {
+    text-decoration: underline;
+}
+
 /* General end */
 
 /* Header start */
@@ -100,10 +104,6 @@ nav > ul a {
 }
 
 nav > ul a:hover {
-    text-decoration: underline;
-}
-
-nav > .active {
     text-decoration: underline;
 }
 
