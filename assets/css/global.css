@@ -72,10 +72,6 @@ header > label {
 }
 
 nav {
-    width: 100%;
-    flex-direction: column;
-    align-items: center; /* Vertically */
-    justify-content: center; /* Horizontally */
     /* Hide dropdown nav menu by default until user clicks hamburger button */
     display: none;
 }
@@ -83,7 +79,32 @@ nav {
 /* note: these rules have to come after nav since we want to apply overriding styles, and css follows order top to bottom where bottom has most priority */
 /* tilde char will target the selector after it */
 #hamburger-checkbox:checked~nav {
-    display: block; 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    font-size: 140%;
+}
+
+nav > ul {
+    list-style: none;
+}
+
+nav > ul li {
+    padding: 1rem;
+}
+
+nav > ul a {
+    text-decoration: none;
+}
+
+nav > ul a:hover {
+    text-decoration: underline;
+}
+
+nav > .active {
+    text-decoration: underline;
 }
 
 
