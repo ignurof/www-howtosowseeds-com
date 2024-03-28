@@ -48,6 +48,43 @@
         </main>
 
         <footer>
+            <ul>
+                <!-- Opening external links in a new tab can let the website hijack our own and perform malicious actions such as phishing -->
+                <!-- To avoid such an attack vector, we need to put noopener in the rel attribute -->
+                <!-- To make it so the external website don't know what site the user navigated from, we use noreferrer -->
+                <li>
+                    <a href="https://www.youtube.com" 
+                       rel="noopener noreferrer" 
+                       aria-label="Go to the YouTube Home page (Opens in a new tab)" 
+                       target="_blank">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com" 
+                       rel="noopener noreferrer" 
+                       aria-label="Go to the Twitter Home page (Opens in a new tab)" 
+                       target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" 
+                       rel="noopener noreferrer" 
+                       aria-label="Go to the Instagram Home page (Opens in a new tab)" 
+                       target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://facebook.com" 
+                       rel="noopener noreferrer" 
+                       aria-label="Go to the Facebook Home page (Opens in a new tab)" 
+                       target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+            </ul>
             <p>
             Created by <a href="https://github.com/ignurof"
                           aria-label="Go to webmaster ignurof's GitHub (Opens in a new tab)"
@@ -55,4 +92,6 @@
             </p>
         </footer>
     </body>
+    <!-- External script sources -->
+    <script src="https://kit.fontawesome.com/bc73c8087e.js" crossorigin="anonymous"></script>
 </html>
