@@ -13,29 +13,33 @@
     </head>
     <body>
         <header>
-            <h1>SOWSEEDS</h1>
-            <nav>
+            <section id="logo-heading">
+                <a href="index.html" aria-label="This logo heading will take you back to the Home page."><p>HOWTO</p><h1>SOWSEEDS</h1></a>
                 <!-- Hamburger button for navigation menu -->
                 <form aria-label="This form controls the hamburger menu dropdown, check the checkbox to open the hamburger menu.">
                     <input type="checkbox" id="hamburger-menu">
                     <label for="hamburger-menu">
                         <div class="nav-hamburger">
-                            <span>X</span>
+                            <!-- &nbsp; is the character code for blank space -->
+                            <span class="burger-line">&nbsp;</span>
+                            <span class="burger-line">&nbsp;</span>
+                            <span class="burger-line">&nbsp;</span>
                         </div>
                     </label>
                 </form>
-                <!-- Navigation menu -->
-                <section class="header-nav-menu">
-                    <ul>
-                        <li><a href="index.html" aria-label="Go to the Home page of the site">Home</a></li>
-                        <li><a href="guide.html" aria-label="Go to the Guide page of the site">Guide</a></li>
-                        <li><a href="about.html" aria-label="Go to the About page of the site">About</a></li>
-                        <li><a href="contact.html" aria-label="Go to the Contact page of the site">Contact</a></li>
-                    </ul>
-                </section>
+            </section>
+
+            <!-- Navigation menu -->
+            <nav>
+                <ul>
+                    <li><a href="index.html" aria-label="Go to the Home page of the site">Home</a></li>
+                    <li><a href="guide.html" aria-label="Go to the Guide page of the site">Guide</a></li>
+                    <li><a href="about.html" aria-label="Go to the About page of the site">About</a></li>
+                    <li><a href="contact.html" aria-label="Go to the Contact page of the site">Contact</a></li>
+                </ul>
             </nav>
         </header>
-
+        
         <main>
             <header>
                 <h2>About</h2>
