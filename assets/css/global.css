@@ -114,29 +114,24 @@ nav > ul a:hover {
 
 /* Header end */
 
-/* Page content start */
+/* Page content general start */
 
 main {
-    display: flex;
-    flex-direction: column;
     min-height: 100vh;
     padding: 1rem;
 }
 
-.content {
-}
-
-.content > header {
+main > header {
     /* reset header border from top nav header */
     border: 0;
     display: flex;
     flex-direction: column;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
     align-items: center;
 }
 
-
-/* Page content end */
+/* Page content general end */
+/* Specific section content start */
 
 /* Index start */
 
@@ -167,16 +162,14 @@ main {
 /* Guide start */
 
 .guide {
-    display: flex;
-    flex-direction: column;
 }
 
 /* Guide end */
 
 /* Contact start */
 
-.contact > header > p {
-    margin-top: 2rem;
+main > header > .contact-text {
+    margin: 2rem 0 2rem 0;
 }
 
 form {
@@ -184,7 +177,6 @@ form {
     flex-direction: column;
     width: 80%;
     margin: 0 auto;
-    padding-top: 1rem;
 }
 
 form label {
@@ -200,6 +192,7 @@ form > input[type=submit]{
 }
 
 /* Contact end */
+/* Specific section content end */
 
 /* Footer start */
 
