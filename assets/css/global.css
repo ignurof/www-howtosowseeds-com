@@ -226,6 +226,8 @@ footer > ul li i {
 
 footer > p {
     text-align: center;
+    position: relative;
+    bottom: 0.6rem;
 }
 
 footer > p > a {
