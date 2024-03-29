@@ -175,6 +175,10 @@ main {
 
 /* Contact start */
 
+.contact > header > p {
+    margin-top: 2rem;
+}
+
 form {
     display: flex;
     flex-direction: column;
