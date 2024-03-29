@@ -40,13 +40,13 @@ header {
 }
 
 #logo-heading > a > p {
-    font-size: 140%;
+    font-size: 120%;
     position: relative;
     top: 0.6rem;
 }
 
 #logo-heading > a > h1 {
-    font-size: 200%;
+    font-size: 180%;
 }
 
 /* Hamburger menu */
