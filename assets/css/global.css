@@ -124,7 +124,7 @@ nav > ul a:hover {
 main {
     min-height: 100vh;
     /* top margin accounts for the fixed header that sits ontop of everything */
-    margin: 5em 1rem 1rem 1rem;
+    margin: 5.4rem 1rem 1rem 1rem;
 }
 
 main > header {
