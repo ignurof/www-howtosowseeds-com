@@ -272,6 +272,13 @@ footer > p > a {
     }   
 }
 
+@media screen and (min-height: 700px) {
+    .call-to-action {
+        /* .4 accounts for top header */
+        margin-top: 4.4rem;
+    }
+}
+
 /* iPad 14 - 810x1080px */
 @media screen and (min-width: 810px)  and (min-height: 720px) {
     main {
@@ -281,11 +288,6 @@ footer > p > a {
     main > section img {
         width: 400px;
         height: 400px;
-    }
-
-    .call-to-action {
-        /* .4 accounts for top header */
-        margin-top: 8.4rem;
     }
 
     footer > ul {
