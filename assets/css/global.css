@@ -302,6 +302,10 @@ footer > p > a {
 
 /* Laptops and other screens */
 @media screen and (min-width: 1200px) {
+    
+    main {
+        width: 66%;
+    }
 
     main > section {
         flex-direction: row;
