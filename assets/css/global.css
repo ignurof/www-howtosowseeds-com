@@ -84,6 +84,7 @@ header > label {
 }
 
 nav {
+    font-size: 120%;
     /* Hide dropdown nav menu by default until user clicks hamburger button */
     display: none;
 }
@@ -96,7 +97,6 @@ nav {
     text-align: center;
     width: 100%;
     padding: 0 1rem 1rem 1rem;
-    font-size: 120%;
 }
 
 nav > ul {
@@ -122,6 +122,7 @@ nav > ul a:hover {
 /* Page content general start */
 
 main {
+    align-self: center;
     min-height: 100vh;
     /* top margin accounts for the fixed header that sits ontop of everything */
     margin: 5.4rem 1rem 1rem 1rem;
@@ -140,15 +141,11 @@ main > section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
 }
 
-main img {
-    width: 75%;
-    height: 75%;
-}
-
-main p {
+main > section img {
+    width: 200px;
+    height: 200px;
 }
 
 /* Page content general end */
@@ -273,4 +270,94 @@ footer > p > a {
     .call-to-action > a > button {
         padding: 2rem 2rem 2rem 2rem;
     }   
+}
+
+/* iPad 14 - 810x1080px */
+@media screen and (min-width: 810px)  and (min-height: 720px) {
+    main {
+        width: 60%;
+    }
+
+    main > section img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .call-to-action {
+        /* .4 accounts for top header */
+        margin-top: 8.4rem;
+    }
+
+    footer > ul {
+        gap: 4rem;
+        padding: 4rem;
+    }
+
+    footer > ul li i {
+        font-size: 3rem;
+    }
+}
+
+/* Laptops and other screens */
+@media screen and (min-width: 1200px) {
+
+    main > section {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    main > section p {
+        width: 50%;
+    }
+
+    main > section .image {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main > section .image img {
+    }
+
+    .call-to-action {
+        /* override section row wrap */
+        flex-direction: column;
+        /* .4 accounts for top header */
+        margin-top: 12.4rem;
+    }
+
+    header {
+        padding-bottom: 0.8rem;
+    }
+
+    /* hide hamburger menu */
+    header > label {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: nowrap;
+        margin-left: auto;
+        /* account for header padding-bottom */
+        margin-top: 0.8rem;
+        align-items: center;
+        align-self: center;
+        font-size: 160%;
+    }
+
+    nav > ul li {
+        display: inline;
+        padding: 2rem;
+    }
+
+    footer > ul {
+        gap: 5rem;
+        padding: 5rem;
+    }
+
+    footer > ul li i {
+        font-size: 4rem;
+    }
 }
