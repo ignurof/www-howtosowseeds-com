@@ -21,6 +21,10 @@ body {
     text-decoration: underline;
 }
 
+.center {
+    text-align: center;
+}
+
 /* General end */
 
 /* Header start */
