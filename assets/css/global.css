@@ -8,6 +8,10 @@
 
 /* General start */
 
+:root {
+    --main-link-color: #E0BB76;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -48,7 +52,7 @@ body > header {
 #logo-heading > a {
     text-decoration: none;
     padding-left: 0.6rem;
-    color: #E0BB76;
+    color: var(--main-link-color);
 }
 
 #logo-heading > a > p {
@@ -83,7 +87,7 @@ header > label {
 }
 
 .burger-line {
-    background-color: black;
+    background-color: var(--main-link-color);
     width: 60%;
     height: 12.5%;
 }
@@ -113,7 +117,7 @@ nav > ul li {
 }
 
 nav > ul a {
-    color: #E0BB76;
+    color: var(--main-link-color);
     text-decoration: none;
 }
 
@@ -270,7 +274,7 @@ footer {
     border-top: 1px solid black;
     margin-top: 1rem;
     background-color: #325434;
-    color: #E0BB76;
+    color: var(--main-link-color); 
 }
 
 footer > ul {
@@ -283,7 +287,7 @@ footer > ul {
 }
 
 footer > ul li i {
-    color: #E0BB76;
+    color: var(--main-link-color);
     font-size: 2rem;
 }
 
@@ -294,7 +298,7 @@ footer > p {
 }
 
 footer > p > a {
-    color: #E0BB76;
+    color: var(--main-link-color);
     text-decoration: none;
 }
 
