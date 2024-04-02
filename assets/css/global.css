@@ -223,12 +223,37 @@ form label {
     margin-top: 1rem;
 }
 
+form > input[type=text]{
+    border: 2px solid black;
+    box-shadow: inset 0.1rem 0.1rem 0.2rem 0.1rem #DCDCDC;
+}
+
+form > input[type=email]{
+    border: 2px solid black;
+    box-shadow: inset 0.1rem 0.1rem 0.2rem 0.1rem #DCDCDC;
+}
+
 form > textarea {
     resize: none;
+    border: 2px solid black;
+    box-shadow: inset 0.2rem 0.2rem 0.2rem 0.1rem #DCDCDC;
+    padding: 0.6rem;
 }
 
 form > input[type=submit]{
-    margin-top: 1rem;
+    margin-top: 2rem;
+    display: inline-block;
+    white-space: normal;
+    word-wrap: break-word;
+    font-size: 140%;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    border: 0;
+    cursor: pointer;
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: #E76020;
+    color: white;
 }
 
 /* Contact end */
