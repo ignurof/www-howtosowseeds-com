@@ -45,13 +45,13 @@
                 <p class="contact-text">This should be some nice text about contacting the webmaster or site guide writers.</p>
             </header>
             <section class="contact">
-                <form>
+                <form method="post" action="thanks.html">
                     <label for="username">Name:</label>
-                    <input type="text" id="username" name="username">
+                    <input type="text" id="username" name="username" required>
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" required>
                     <label for="message">Message:</label>
-                    <textarea id="message" placeholder="Write your message here..." rows=10></textarea>
+                    <textarea id="message" name="message" placeholder="Write your message here..." rows=10 required></textarea>
                     <input type="submit"> 
                 </form>
             </section>
