@@ -364,6 +364,10 @@ footer > p > a {
         width: 66%;
     }
 
+    main > section {
+        gap: 2rem 0;
+    }
+
     main > section .image {
         width: 50%;
     }
