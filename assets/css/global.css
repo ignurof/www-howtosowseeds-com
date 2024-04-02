@@ -10,6 +10,7 @@
 
 :root {
     --main-link-color: #E0BB76;
+    --cta-color: #E76020;
 }
 
 body {
@@ -191,8 +192,13 @@ main > section .image {
     border: 0;
     cursor: pointer;
     padding: 1rem 2rem 1rem 2rem;
-    background-color: #E76020;
+    background-color: var(--cta-color);
     color: white;
+}
+
+.call-to-action > a > button:hover {
+    background-color: var(--main-link-color);
+    box-shadow: inset 0 0 0 0.4rem var(--cta-color);
 }
 
 /* Index end */
@@ -257,8 +263,13 @@ form > input[type=submit]{
     border: 0;
     cursor: pointer;
     padding: 1rem 2rem 1rem 2rem;
-    background-color: #E76020;
+    background-color: var(--cta-color);
     color: white;
+}
+
+form > input[type=submit]:hover {
+    background-color: var(--main-link-color);
+    box-shadow: inset 0 0 0 0.4rem var(--cta-color);
 }
 
 /* Contact end */
