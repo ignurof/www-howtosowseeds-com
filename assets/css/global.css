@@ -314,6 +314,12 @@ footer > p > a {
     }   
 }
 
+@media screen and (min-width: 600px) {
+    form {
+        width: 60%;
+    } 
+}
+
 @media screen and (min-height: 700px) {
     .call-to-action {
         /* .4 accounts for top header */
@@ -327,8 +333,14 @@ footer > p > a {
 
     main { 
         width: 70%; 
+    }
+
+    form {
+        width: 50%;
     } 
+
 }
+
 @media screen and (min-width: 810px)  and (min-height: 720px) {
     main > section img {
         width: 400px;
@@ -375,6 +387,10 @@ footer > p > a {
     main > section .image {
         width: 50%;
     }
+
+    form {
+        width: 40%;
+    } 
 
     .call-to-action {
         /* override section row wrap */
