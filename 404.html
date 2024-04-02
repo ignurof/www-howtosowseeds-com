@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="This is a website about sowing seeds for beginners and pros alike.">
+        <meta name="keywords" content="sow, sowing, seed, seeds, guide, guides">
+        <meta name="author" content="github/ignurof">
+
+        <title>howtosowseeds</title>
+
+        <link href="assets/css/global.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <section id="logo-heading">
+                <a href="index.html" aria-label="This logo heading will take you back to the Home page."><p>HOWTO</p><h1>SOWSEEDS</h1></a>
+            </section>
+
+            <!-- Hamburger button for navigation menu -->
+            <input type="checkbox" id="hamburger-checkbox">
+            <label for="hamburger-checkbox">
+                <div class="nav-hamburger">
+                    <!-- &nbsp; is the character code for blank space -->
+                    <span class="burger-line">&nbsp;</span>
+                    <span class="burger-line">&nbsp;</span>
+                    <span class="burger-line">&nbsp;</span>
+                </div>
+            </label>
+
+            <!-- Navigation menu -->
+            <nav>
+                <ul>
+                    <li><a href="index.html" aria-label="Go to the Home page of the site">Home</a></li>
+                    <li><a href="guide.html" aria-label="Go to the Guide page of the site">Guide</a></li>
+                    <li><a href="about.html" aria-label="Go to the About page of the site">About</a></li>
+                    <li><a href="contact.html" aria-label="Go to the Contact page of the site">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="error-404">
+                <h2>ERROR: 404</h2>
+                <p>Oops! Something went wrong :(</p>
+                <a href="index.html" aria-label="Go to the Home page of the site"><button>Home</button></a>
+            </section>
+        </main>
+
+        <footer>
+            <ul>
+                <!-- Opening external links in a new tab can let the website hijack our own and perform malicious actions such as phishing -->
+                <!-- To avoid such an attack vector, we need to put noopener in the rel attribute -->
+                <!-- To make it so the external website don't know what site the user navigated from, we use noreferrer -->
+                <li>
+                    <a href="https://www.youtube.com" 
+                       rel="noopener noreferrer" 
+                       aria-label="Go to the YouTube Home page (Opens in a new tab)" 
+                       target="_blank">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com" 
+                       rel="noopener noreferrer" 
+                       aria-label="Go to the Twitter Home page (Opens in a new tab)" 
+                       target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" 
+                       rel="noopener noreferrer" 
+                       aria-label="Go to the Instagram Home page (Opens in a new tab)" 
+                       target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://facebook.com" 
+                       rel="noopener noreferrer" 
+                       aria-label="Go to the Facebook Home page (Opens in a new tab)" 
+                       target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+            </ul>
+            <p>
+            Created by <a href="https://github.com/ignurof"
+                          aria-label="Go to webmaster ignurof's GitHub (Opens in a new tab)"
+                          target="_blank">ignurof</a>
+            </p>
+        </footer>
+    </body>
+    <!-- External script sources -->
+    <script src="https://kit.fontawesome.com/bc73c8087e.js" crossorigin="anonymous"></script>
+</html>
