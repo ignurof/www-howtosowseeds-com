@@ -1,10 +1,10 @@
 # www-howtosowseeds-com
 
-- banner/logo image goes here
-
 howtosowseeds.com is an informational guide site to help people around the world with general information and guides on how to sow different kinds of seeds.
 The intention is to bring more people into the gardening hobby and the main target demographic of the site is beginners to gardening and anything related to seed sowing. 
 howtosowseeds.com will be a good place of reference for gardeners to know just when and how to sow their seeds even when they're not beginners anymore.
+
+- AM I RESPONSIVE IMAGE HERE
 
 ## Features 
 The site features are very simple in nature since the focus of the site is on the informational guide content in both text, image and video format.
@@ -12,17 +12,28 @@ The site features are very simple in nature since the focus of the site is on th
 ### Existing Features
 
 Site Layout
-- Header
-- Content
-- Footer
+
+Header
+![Header](https://www.ignurof.com/features/header.png)
+
+Content
+![Content](https://www.ignurof.com/features/content.png)
+
+Footer
+![Footer](https://www.ignurof.com/features/footer.png)
+
 
 Home Page
+![Home Page](https://www.ignurof.com/features/home_page.png)
 
 Guide Page
+![Guide Page](https://www.ignurof.com/features/guide_page.png)
 
 About Page
+![About Page](https://www.ignurof.com/features/about_page.png)
 
 Contact Page
+![Contact Page](https://www.ignurof.com/features/contact_page.png)
 
 ### Features Left to Implement
 
@@ -78,10 +89,10 @@ CSS was tested through the jigsaw.w3.org css specific validator found here: http
 ### Unfixed Bugs
 
 The four unfixed bugs currently deployed in production are the ones shown above that failed the HTML validation testing.
-- 1
-- 2
-- 3
-- 4
+- Element div not allowed as child of element label in this context.
+- The element button must not appear as a descendant of the a element.
+- The element button must not appear as a descendant of the a element.
+- Stray start tag script.
 
 ## Deployment
 
