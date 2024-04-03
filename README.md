@@ -31,6 +31,8 @@ a hero background image that covers the main content section of the page with so
 
 ## Testing 
 
+Manual testing with Firefox through development process.
+
 ### Validator Testing 
 
 HTML
@@ -50,6 +52,10 @@ GitHub pages
 ## Credits 
 
 - The readme is from the template made by Code Institute (https://github.com/Code-Institute-Solutions/readme-template)
+- Hamburger menu input checkbox functionality from Code Institute's Love Running project.
+- Colorscheme heavily inspired by: link here
+- Mozilla Developer Docs: link here
+
 
 ### Content 
 
