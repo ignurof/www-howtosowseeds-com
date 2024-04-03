@@ -10,6 +10,15 @@ howtosowseeds.com will be a good place of reference for gardeners to know just w
 
 - [**Features**](#features)
     + [Existing Features](#existing-features)
+    + [Features Left to Implement](#features-left-to-implement)
+- [**User Experience**](#user-experience)
+    + [Wireframes](#wireframes)
+    + [Interaction Experience](#interaction-experience)
+- [**Testing**](#testing)
+    + [Validatori Testing](#validator-testing)
+    + [Unfixed Bugs](#unfixed-bugs)
+- [**Deployment**](#deployment)
+- [**Credits**](#credits)
 
 ## Features 
 The site features are very simple in nature since the focus of the site is on the informational guide content in both text, image and video format.
