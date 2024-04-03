@@ -6,6 +6,11 @@ howtosowseeds.com will be a good place of reference for gardeners to know just w
 
 ![Responsiveness](https://www.ignurof.com/responsive.png)
 
+# Table of Contents
+
+- [**Features**](#features)
+    + [Existing Features](#existing-features)
+
 ## Features 
 The site features are very simple in nature since the focus of the site is on the informational guide content in both text, image and video format.
 
