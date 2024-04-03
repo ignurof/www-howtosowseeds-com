@@ -4,7 +4,7 @@ howtosowseeds.com is an informational guide site to help people around the world
 The intention is to bring more people into the gardening hobby and the main target demographic of the site is beginners to gardening and anything related to seed sowing. 
 howtosowseeds.com will be a good place of reference for gardeners to know just when and how to sow their seeds even when they're not beginners anymore.
 
-- AM I RESPONSIVE IMAGE HERE
+![Responsiveness](https://www.ignurof.com/responsive.png)
 
 ## Features 
 The site features are very simple in nature since the focus of the site is on the informational guide content in both text, image and video format.
@@ -110,6 +110,7 @@ GitHub pages were used to deploy this website and this step by step guide will t
 - The readme is from the template made by Code Institute (https://github.com/Code-Institute-Solutions/readme-template)
 - The greatest documentation Mozilla Developer Docs: https://developer.mozilla.org/en-US/
 - Invaluable syntax helper w3schools: https://www.w3schools.com/
+- Repo Banner image with the help of: https://ui.dev/amiresponsive
 
 ### Content 
 
