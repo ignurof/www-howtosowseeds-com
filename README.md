@@ -114,6 +114,7 @@ GitHub pages were used to deploy this website and this step by step guide will t
 - Go to "Pages" under the "Code and Automation" section. 
 - Make sure Source is set to "Deploy from a branch".
 - Under the "Branch" heading, click the dropdown and select "prod".
+- If you don't have the "prod" branch, you can select "main" or "master" instead.
 - Click "Save" and the site will be deployed to GitHub Pages.
 - Now you can visit the site located at: https://your-username-here.github.io/repository-name-here
 
