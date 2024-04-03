@@ -216,6 +216,10 @@ main > section .image {
 .guide {
 }
 
+.guide img {
+    object-fit: cover;
+}
+
 /* Guide end */
 
 /* About start */
