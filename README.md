@@ -60,11 +60,20 @@ Every button has been pressed and investigated more than hundres of times throug
 The website has also been combed through with the use of a android phone to make sure that the mobile-first design has always been grounded in the real world!
 After completed development cycle I have also gone through the whole site one last time to make sure I did not miss anything, and through the whole development process I have taken notes and crossed of those notes whenever I noticed there was a task that needed to be taken care of, for example seeing something not being perfectly responsive during testing I would note that down, keep testing and then return to address whatever the issue was when development was resumed.
 
+After all was said and done with above testing and I noted that everything looked right, I ran the site through a HTML validator and CSS validator to go the extra mile and make sure I covered all my bases. The CSS was top notch but I had 4 unfixed bugs to deal with in the HTML, but nothing that affects the functionality, look or features or the website so they could be postponed from the MVP.
+
+To cover all my bases since I have tested on Firefox and also an android phone which user Google Chrome, I wanted to make sure I also test using and hopefully not breaking the site while navigating around with Google Chrome on my laptop as one final test.
+Everything looked like it did previously except in a different browser which means the site definitely passes the testing stage.
+
 ### Validator Testing 
 
 HTML was tested through the w3.org validator found here: https://validator.w3.org
 
+![HTML Validation](https://www.ignurof.com/validation/howtosowseeds/html_validation.png)
+
 CSS was tested through the jigsaw.w3.org css specific validator found here: https://jigsaw.w3.org/css-validator/
+
+![CSS Validation](https://www.ignurof.com/validation/howtosowseeds/css_validation.png)
 
 ### Unfixed Bugs
 
