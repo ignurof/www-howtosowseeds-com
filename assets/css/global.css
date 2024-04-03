@@ -30,7 +30,7 @@ body {
     text-align: center;
 }
 
-button > a {
+.button {
     color: white;
     text-decoration: none;
 }
@@ -190,7 +190,7 @@ main > section .image {
     align-items: center;
 }
 
-.call-to-action > button {
+.call-to-action > .button {
     font-size: 160%;
     font-weight: bold;
     text-transform: uppercase;
@@ -202,12 +202,12 @@ main > section .image {
     color: white;
 }
 
-.call-to-action > button:hover {
+.call-to-action > .button:hover {
     background-color: var(--main-link-color);
     box-shadow: inset 0 0 0 0.4rem var(--cta-color);
 }
 
-.call-to-action > button:active {
+.call-to-action > .button:active {
     box-shadow: inset 0 0 0 0.1rem var(--cta-color);
 }
 
@@ -342,7 +342,7 @@ footer > p > a {
         gap: 4rem;
     }
 
-    .call-to-action > a > button {
+    .call-to-action > .button {
         padding: 2rem 2rem 2rem 2rem;
     }   
 }
@@ -437,7 +437,7 @@ footer > p > a {
     }
 
     /* hide hamburger menu */
-    header > label {
+    .nav-hamburger {
         display: none;
     }
 
