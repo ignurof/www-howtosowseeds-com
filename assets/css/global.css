@@ -126,6 +126,10 @@ nav > ul a:hover {
     text-decoration: underline;
 }
 
+nav > ul a:active {
+    border-bottom: 1px solid var(--main-link-color); 
+}
+
 
 /* Header end */
 
@@ -201,6 +205,10 @@ main > section .image {
     box-shadow: inset 0 0 0 0.4rem var(--cta-color);
 }
 
+.call-to-action > a > button:active {
+    box-shadow: inset 0 0 0 0.1rem var(--cta-color);
+}
+
 /* Index end */
 
 /* Guide start */
@@ -270,6 +278,10 @@ form > input[type=submit]{
 form > input[type=submit]:hover {
     background-color: var(--main-link-color);
     box-shadow: inset 0 0 0 0.4rem var(--cta-color);
+}
+
+form > input[type=submit]:active {
+    box-shadow: inset 0 0 0 0.1rem var(--cta-color);
 }
 
 /* Contact end */
